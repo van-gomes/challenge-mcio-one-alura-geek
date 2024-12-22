@@ -1,12 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Alura Geek</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/reset.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="imagem_three_hearts"
+        src="assets/three_ hearts.svg"
+        alt="Três corações juntos"
+      >
+      <h1 class="header_title">Alura Geek</h1>
+    </header>
 
-</body>
+    <main>
+      <section class="products">
+        <h2 class="products_title">Produtos</h2>
+        <ul class="products_list">
+            <li>
+                <img class="product_image" src="assets/smartphone.svg" alt="Smartphone">
+                <div class="product_info">
+                    <h3 class="product_name">Smartphone</h3>
+                    <p class="product_description">
+                      O melhor smartphone do mercado, com câmera de 108MP e 1TB de
+                      armazenamento.
+                    </p>
+                    <p class="product_price">R$ 5.000,00</p>
+                    <img
+                      class="trash"
+                      src="assets/three_ hearts.svg"
+                      alt="Icone de lixeira" >
+                  </div>
+            </li>
+            <li>
+                <img class="product_image" src="assets/smartphone.svg" alt="Smartphone">
+                <div class="product_info">
+                    <h3 class="product_name">Smartphone</h3>
+                    <p class="product_description">
+                      O melhor smartphone do mercado, com câmera de 108MP e 1TB de
+                      armazenamento.
+                    </p>
+                    <p class="product_price">R$ 5.000,00</p>
+                    <img
+                      class="trash"
+                      src="assets/three_ hearts.svg"
+                      alt="Icone de lixeira" >
+                  </div>
+            </li>
+            <li>
+                <img class="product_image" src="assets/smartphone.svg" alt="Smartphone">
+                <div class="product_info">
+                    <h3 class="product_name">Smartphone</h3>
+                    <p class="product_description">
+                      O melhor smartphone do mercado, com câmera de 108MP e 1TB de
+                      armazenamento.
+                    </p>
+                    <p class="product_price">R$ 5.000,00</p>
+                    <img
+                      class="trash"
+                      src="assets/three_ hearts.svg"
+                      alt="Icone de lixeira" >
+                  </div>
+            </li>
+            <li>
+                <img class="product_image" src="assets/smartphone.svg" alt="Smartphone">
+                <div class="product_info">
+                    <h3 class="product_name">Smartphone</h3>
+                    <p class="product_description">
+                      O melhor smartphone do mercado, com câmera de 108MP e 1TB de
+                      armazenamento.
+                    </p>
+                    <p class="product_price">R$ 5.000,00</p>
+                    <img
+                      class="trash"
+                      src="assets/three_ hearts.svg"
+                      alt="Icone de lixeira" >
+                  </div>
+            </li>
+            <li>
+                <img class="product_image" src="assets/smartphone.svg" alt="Smartphone">
+                <div class="product_info">
+                    <h3 class="product_name">Smartphone</h3>
+                    <p class="product_description">
+                      O melhor smartphone do mercado, com câmera de 108MP e 1TB de
+                      armazenamento.
+                    </p>
+                    <p class="product_price">R$ 5.000,00</p>
+                    <img
+                      class="trash"
+                      src="assets/three_ hearts.svg"
+                      alt="Icone de lixeira" >
+                  </div>
+            </li>
+            <li>
+                <img class="product_image" src="assets/smartphone.svg" alt="Smartphone">
+                <div class="product_info">
+                    <h3 class="product_name">Smartphone</h3>
+                    <p class="product_description">
+                      O melhor smartphone do mercado, com câmera de 108MP e 1TB de
+                      armazenamento.
+                    </p>
+                    <p class="product_price">R$ 5.000,00</p>
+                    <img
+                      class="trash"
+                      src="assets/three_ hearts.svg"
+                      alt="Icone de lixeira" >
+                  </div>
+            </li>
+        </ul>
+      </section>
+
+      <section class="add_product">
+        <h2 class="add_product_title">Adicionar Produto</h2>
+        <form class="add_product_form">
+          <label for="product_name" class="add_product_label">Nome</label>
+          <input
+            type="text"
+            id="product_name"
+            name="product_name"
+            class="add_product_input"
+          />
+
+          <label for="product_description" class="add_product_label">Descrição</label>
+          <textarea
+            id="product_description"
+            name="product_description"
+            class="add_product_input"
+          ></textarea>
+
+          <label for="product_price" class="add_product_label">Preço</label>
+          <input
+            type="text"
+            id="product_price"
+            name="product_price"
+            class="add_product_input"
+          />
+
+          <h3>Adicionar imagem</h3>
+          <input type="file" class="add_product_input" />
+        <div class="add_product_buttons">
+          <button class="add_product_button">Adicionar Produto</button>
+          <button class="reset_product_button">Limpar Campos</button>
+        </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
