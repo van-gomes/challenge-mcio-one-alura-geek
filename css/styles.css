@@ -110,3 +110,13 @@ main {
 .add_product_button, .reset_product_button {
     flex: 1;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    padding: 2rem;
+    color: #fff;
+    background-color: #5300C8;
+}
