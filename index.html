@@ -24,13 +24,14 @@
 
       <section class="add_product">
         <h2 class="add_product_title">Adicionar Produto</h2>
-        <form class="add_product_form">
+        <form class="add_product_form" data-formulario>
           <label for="product_name" class="add_product_label">Nome</label>
           <input
             type="text"
             id="product_name"
             name="product_name"
             class="add_product_input"
+            data-nome
           />
 
           <label for="product_description" class="add_product_label">Descrição</label>
@@ -38,6 +39,7 @@
             id="product_description"
             name="product_description"
             class="add_product_input"
+            data-descricao
           ></textarea>
 
           <label for="product_price" class="add_product_label">Preço</label>
@@ -46,10 +48,11 @@
             id="product_price"
             name="product_price"
             class="add_product_input"
+            data-preco
           />
 
           <label for="product_image" class="add_product_label">Imagem</label>
-          <input type="file" class="upload_product_image" />
+          <input type="file" class="upload_product_image" data-imagem />
           
         <div class="add_product_buttons">
           <button class="add_product_button">Adicionar Produto</button>
