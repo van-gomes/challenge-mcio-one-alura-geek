@@ -52,10 +52,15 @@
           />
 
           <label for="product_image" class="add_product_label">Imagem</label>
-          <input type="file" class="upload_product_image" data-imagem />
+          <input 
+           type="file"
+           class="upload_product_image"
+           data-imagem
+           accept="image/*"
+          />
           
         <div class="add_product_buttons">
-          <button class="add_product_button">Adicionar Produto</button>
+          <button type="submit" class="add_product_button">Adicionar Produto</button>
           <button class="reset_product_button">Limpar Campos</button>
         </div>
         </form>
@@ -63,16 +68,10 @@
     </main>
     <footer class="footer">
       <p class="footer_text">
-        Feito com 
-        <img
-          class="footer_image"
-          src="assets/heart.svg"
-          alt="Coração"
-        >
-        por Vânia Gomes
+        Feito com ❤️ por Vânia Gomes
       </p>
     </footer>
 
-    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/listaProdutos.js" type="module"></script>
   </body>
 </html>

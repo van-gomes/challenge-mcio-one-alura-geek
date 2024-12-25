@@ -1,60 +1,67 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Camiseta Star Wars",
-        "description": "Camiseta temática de Star Wars com estampa do Darth Vader.",
-        "price": 79.90,
-        "image": "https://example.com/images/star-wars-tshirt.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Funko Pop Harry Potter",
-        "description": "Boneco colecionável Funko Pop do Harry Potter com uniforme de Hogwarts.",
-        "price": 119.90,
-        "image": "https://example.com/images/funko-harry-potter.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Caneca Game of Thrones",
-        "description": "Caneca personalizada com brasões das casas de Game of Thrones.",
-        "price": 49.90,
-        "image": "https://example.com/images/got-mug.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Luminária Pokébola",
-        "description": "Luminária LED no formato de uma Pokébola.",
-        "price": 89.90,
-        "image": "https://example.com/images/pokeball-lamp.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Mousepad Geek",
-        "description": "Mousepad com estampa temática de animes populares.",
-        "price": 29.90,
-        "image": "https://example.com/images/anime-mousepad.jpg"
-      },
-      {
-        "id": 6,
-        "name": "Chaveiro Senhor dos Anéis",
-        "description": "Chaveiro do Um Anel com detalhes em alto relevo.",
-        "price": 19.90,
-        "image": "https://example.com/images/lotr-keychain.jpg"
-      },
-      {
-        "id": 7,
-        "name": "Poster Marvel",
-        "description": "Poster em alta resolução dos Vingadores.",
-        "price": 39.90,
-        "image": "https://example.com/images/marvel-poster.jpg"
-      },
-      {
-        "id": 8,
-        "name": "Action Figure Homem de Ferro",
-        "description": "Action figure detalhado do Homem de Ferro com luzes LED no peito.",
-        "price": 249.90,
-        "image": "https://example.com/images/iron-man-action-figure.jpg"
-      }
-    ]
-  }  
+  "products": [
+    {
+      "id": 1,
+      "name": "Camiseta Star Wars",
+      "description": "Camiseta temática de Star Wars com estampa do Darth Vader.",
+      "price": 79.9,
+      "image": "https://example.com/images/star-wars-tshirt.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Funko Pop Harry Potter",
+      "description": "Boneco colecionável Funko Pop do Harry Potter com uniforme de Hogwarts.",
+      "price": 119.9,
+      "image": "https://example.com/images/funko-harry-potter.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Caneca Game of Thrones",
+      "description": "Caneca personalizada com brasões das casas de Game of Thrones.",
+      "price": 49.9,
+      "image": "https://example.com/images/got-mug.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Luminária Pokébola",
+      "description": "Luminária LED no formato de uma Pokébola.",
+      "price": 89.9,
+      "image": "https://example.com/images/pokeball-lamp.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mousepad Geek",
+      "description": "Mousepad com estampa temática de animes populares.",
+      "price": 29.9,
+      "image": "https://example.com/images/anime-mousepad.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chaveiro Senhor dos Anéis",
+      "description": "Chaveiro do Um Anel com detalhes em alto relevo.",
+      "price": 19.9,
+      "image": "https://example.com/images/lotr-keychain.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Poster Marvel",
+      "description": "Poster em alta resolução dos Vingadores.",
+      "price": 39.9,
+      "image": "https://example.com/images/marvel-poster.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Action Figure Homem de Ferro",
+      "description": "Action figure detalhado do Homem de Ferro com luzes LED no peito.",
+      "price": 249.9,
+      "image": "https://example.com/images/iron-man-action-figure.jpg"
+    },
+    {
+      "name": "Produto Teste",
+      "description": "Descrição do produto teste",
+      "price": 100,
+      "image": "http://image-url",
+      "id": 9
+    }
+  ]
+}

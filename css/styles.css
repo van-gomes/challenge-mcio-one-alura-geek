@@ -120,3 +120,20 @@ main {
     color: #fff;
     background-color: #5300C8;
 }
+
+.mensagem {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mensagem__imagem {
+    width: 30%;
+}
+
+.mensagem__titulo {
+    color: var(--azul-medio);
+    font-weight: bold;
+    font-size: 21px;
+}
