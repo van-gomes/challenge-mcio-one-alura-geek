@@ -4,14 +4,13 @@ async function listaProdutos() {
   return produtos;
 }
 
-async function criaProduto(id, name, description, price, image) {
+async function criaProduto(name, description, price, image) {
   const conexao = await fetch("http://localhost:3000/products", {
     method: "POST",
     headers: {
       "Content-type": "application/json",
     },
     body: JSON.stringify({
-      id: id,
       name: name,
       description: description,
       price: price,
