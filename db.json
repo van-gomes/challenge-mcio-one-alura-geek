@@ -1,46 +1,11 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Camiseta Star Wars",
-      "description": "Camiseta temática de Star Wars com estampa do Darth Vader.",
-      "price": 79.9,
-      "image": "https://a-static.mlcdn.com.br/450x450/videogame-games-antigos-mini-game-portatil-infantil-com-9999-jogos-em-1-console-movido-a-pilha-kids-online/filialreidoimportado/gh-3835870/385f3bcc9dbdfb63fffe23fdd5fdd51e.jpeg"
-    },
-    {
-      "id": "3bfe",
+      "id": "1d71",
       "name": "Caneca Mundo Sombrio de Sabrina",
-      "description": "fff",
-      "price": "20.30",
-      "image": "https://a-static.mlcdn.com.br/450x450/videogame-games-antigos-mini-game-portatil-infantil-com-9999-jogos-em-1-console-movido-a-pilha-kids-online/filialreidoimportado/gh-3835870/385f3bcc9dbdfb63fffe23fdd5fdd51e.jpeg"
-    },
-    {
-      "id": "8b3b",
-      "name": "The Aliens",
-      "description": "teste",
-      "price": "20.30",
-      "image": "https://a-static.mlcdn.com.br/450x450/videogame-games-antigos-mini-game-portatil-infantil-com-9999-jogos-em-1-console-movido-a-pilha-kids-online/filialreidoimportado/gh-3835870/385f3bcc9dbdfb63fffe23fdd5fdd51e.jpeg"
-    },
-    {
-      "id": "83a7",
-      "name": "teste",
-      "description": "testeeeeeeeeee",
+      "description": "Caneca",
       "price": "15.00",
-      "image": "https://a-static.mlcdn.com.br/450x450/videogame-games-antigos-mini-game-portatil-infantil-com-9999-jogos-em-1-console-movido-a-pilha-kids-online/filialreidoimportado/gh-3835870/385f3bcc9dbdfb63fffe23fdd5fdd51e.jpeg"
-    },
-    {
-      "id": "70b3",
-      "name": "Caneca Mundo Sombrio de Sabrina",
-      "description": "fffffffffffffffffff",
-      "price": "20.30",
-      "image": "https://a-static.mlcdn.com.br/450x450/videogame-games-antigos-mini-game-portatil-infantil-com-9999-jogos-em-1-console-movido-a-pilha-kids-online/filialreidoimportado/gh-3835870/385f3bcc9dbdfb63fffe23fdd5fdd51e.jpeg"
-    },
-    {
-      "id": "3e51",
-      "name": "The Aliens",
-      "description": "ssssss",
-      "price": "20.30",
-      "image": "https://i.pinimg.com/736x/17/d2/da/17d2dabc4b931208452ae857a5d11c90.jpg"
+      "image": "https://i.pinimg.com/736x/ee/ff/b2/eeffb25e5f557cff501d8ce7ba7ad7b1.jpg"
     }
   ]
 }

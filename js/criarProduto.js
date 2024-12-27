@@ -4,7 +4,7 @@ const lista = document.querySelector("[data-lista-produtos]");
 const formulario = document.querySelector("[data-formulario]");
 
 // Função para criar o card do produto
-function constroiCard(name, description, price, image) {
+function constroiCard(id, name, description, price, image) {
     const produto = document.createElement("li");
     produto.className = "product-item";
     produto.innerHTML = `
@@ -13,7 +13,9 @@ function constroiCard(name, description, price, image) {
         <h3 class="product_name">${name}</h3>
         <p class="product_description">${description}</p>
         <p class="product_price">R$ ${price}</p>
-        <img src="./assets/excluir.png" class="trash-icon" alt="Um ícone de lixeira">
+        <button class="delete-button" data-id="${id}">
+            <img src="./assets/excluir.png" class="trash-icon" alt="Um ícone de lixeira">
+        </button>
     </div>`;
     return produto;
 }
@@ -26,6 +28,7 @@ async function listaProdutos() {
         listaApi.forEach((elemento) =>
             lista.appendChild(
                 constroiCard(
+                    elemento.id, // Adicionado corretamente
                     elemento.name,
                     elemento.description,
                     elemento.price,
@@ -33,6 +36,7 @@ async function listaProdutos() {
                 )
             )
         );
+        adicionarListenersDeletar(); // Adiciona os listeners após renderizar
     } catch (error) {
         console.error("Erro ao listar produtos:", error);
     }
@@ -55,6 +59,33 @@ async function criaProduto(evento) {
     } catch (error) {
         console.error("Erro ao criar produto:", error);
     }
+}
+
+// Função para excluir um produto
+async function excluirProduto(id) {
+    try {
+        const conexao = await fetch(`http://localhost:3000/products/${id}`, {
+            method: "DELETE",
+        });
+
+        if (!conexao.ok) {
+            throw new Error("Não foi possível deletar o produto!");
+        }
+
+        console.log(`Produto ${id} deletado com sucesso!`);
+        listaProdutos(); // Atualiza a lista após exclusão
+    } catch (error) {
+        console.error("Erro ao deletar produto:", error);
+    }
+}
+
+// Adiciona event listeners para os botões de exclusão
+function adicionarListenersDeletar() {
+    const botoesDeletar = document.querySelectorAll(".delete-button");
+    botoesDeletar.forEach((botao) => {
+        const id = botao.dataset.id;
+        botao.addEventListener("click", () => excluirProduto(id));
+    });
 }
 
 // Event listener para o formulário
