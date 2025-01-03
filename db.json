@@ -1,11 +1,11 @@
 {
   "products": [
     {
-      "id": "1d71",
       "name": "Caneca Mundo Sombrio de Sabrina",
-      "description": "Caneca",
+      "description": "teste",
       "price": "15.00",
-      "image": "https://i.pinimg.com/736x/ee/ff/b2/eeffb25e5f557cff501d8ce7ba7ad7b1.jpg"
+      "image": "https://i.pinimg.com/736x/c1/3a/3b/c13a3b94dc841d99a9029aa9d2b2cb49.jpg",
+      "id": 1
     }
   ]
 }
