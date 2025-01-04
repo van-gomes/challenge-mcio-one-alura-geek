@@ -19,13 +19,13 @@ main {
     position: relative;
     height: 100%;
     margin-top: 2rem;
-    background-color: #000000;
+    background-color: #fff;
 }
 
 .products_title {
     font-family: "Press Start 2P", serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #03318C;
     margin-bottom: 1rem;
 }
@@ -40,6 +40,18 @@ main {
     max-height: 70vh;
 }
 
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1rem solid #000000;
+    padding: 1rem;
+    background-color: #5D04D9;
+    border-radius: 0.6rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+}
+
 .product_image {
     max-width: 100%;
     height: auto;
@@ -48,9 +60,12 @@ main {
 }
 
 .product_info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
     margin-top: 1rem;
     text-align: left;
-    width: 100%;
 }
 
 .product_name {
@@ -66,9 +81,15 @@ main {
     color: #FFFFFF;
 }
 
-.trash-icon {
-    color: #fff;
+.delete-button {
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: .3rem;
+    margin-left: 13rem;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 
 .add_product{
@@ -92,8 +113,26 @@ main {
 .add_product_form {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
     width: 100%;
+}
+
+.add_product_label{
+    margin-top: 1rem;
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #03318C;
+}
+
+.add_product_input, .file_product_image {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
 }
 
 .upload_product_image {
@@ -110,16 +149,23 @@ main {
 
 .add_product_button, .reset_product_button {
     flex: 1;
+    max-width: none;
+    padding: 0.75rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .3rem;
-    padding: 2rem;
-    color: #fff;
-    background-color: #5300C8;
+.add_product_button {
+    color: #ffffff;
+    background-color: #03318C;
+    border: none;
+}
+
+.reset_product_button {
+    color: #03318C;
+    background-color: #FFFFFF;
+    border: 0.1rem solid #03318C;
 }
 
 .mensagem {
@@ -137,4 +183,14 @@ main {
     color: var(--azul-medio);
     font-weight: bold;
     font-size: 21px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    padding: 2rem;
+    color: #fff;
+    background-color: #5300C8;
 }
