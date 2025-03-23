@@ -82,11 +82,8 @@ main {
 }
 
 .delete-button {
-    position: relative;
     width: 1.5rem;
     height: 1.5rem;
-    padding: .3rem;
-    margin-left: 13rem;
     cursor: pointer;
     border: none;
     background-color: transparent;
@@ -168,28 +165,35 @@ main {
     border: 0.1rem solid #03318C;
 }
 
-.mensagem {
+.message {
     display: grid;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-.mensagem__imagem {
+.message__image {
     width: 30%;
 }
 
-.mensagem__titulo {
+.message__title {
     color: var(--azul-medio);
     font-weight: bold;
     font-size: 21px;
 }
 
+.product_info_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: .3rem;
+    gap: .5rem;
     padding: 2rem;
     color: #fff;
     background-color: #5300C8;
